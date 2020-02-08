@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Transactions</string>
+    <string name="txt_id">Id</string>
+    <string name="txt_Amount">Amount</string>
+    <string name="txt_Transactions">Transactions</string>
+
+    <!--Mensajes de error -->
+    <string name="errorLoadData">Failed Load Data: </string>
+</resources>
