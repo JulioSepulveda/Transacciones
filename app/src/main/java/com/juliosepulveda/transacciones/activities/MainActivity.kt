@@ -103,9 +103,9 @@ class MainActivity : AppCompatActivity() {
 
         //Cambiamos el color del campo Amount (azul si positivo o rojo si negativo)
         if (orderList[0].amount >= 0)
-                tvLastAmountValue.setTextColor(Color.RED)
+                tvLastAmountValue.setTextColor(Color.BLUE)
         else
-            tvLastAmountValue.setTextColor(Color.BLUE)
+            tvLastAmountValue.setTextColor(Color.RED)
 
         orderList.removeAt(0)
     }
